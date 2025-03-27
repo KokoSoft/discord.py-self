@@ -45,7 +45,7 @@ from typing import (
 import datetime
 from operator import attrgetter
 
-import discord.abc
+import discord_self.discord as discord
 from .scheduled_event import ScheduledEvent
 from .permissions import PermissionOverwrite, Permissions
 from .enums import (

@@ -26,7 +26,7 @@ from __future__ import annotations
 
 from typing import Any, Callable, Dict, List, Optional, Tuple, TYPE_CHECKING, Union
 
-import discord.abc
+import discord_self.discord as discord
 from .asset import Asset
 from .colour import Colour
 from .enums import (
